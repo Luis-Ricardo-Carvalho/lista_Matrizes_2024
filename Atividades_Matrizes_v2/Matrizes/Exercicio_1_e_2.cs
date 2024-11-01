@@ -4,7 +4,7 @@ using Biblioteca_Matriz;
 namespace Matrizes
 {
     class Exercicio_1_e_2
-    {/*
+    {
         static int maiorValorMatriz(int[,] mat) 
         {
             int rows = mat.GetLength(0); //pega linhas
@@ -41,7 +41,7 @@ namespace Matrizes
             return menor;
 
         }
-        static void Main()
+        /*static void Main()
         {
             int rows, cols;
             Console.WriteLine("Quantidade de linha e colunas:");
