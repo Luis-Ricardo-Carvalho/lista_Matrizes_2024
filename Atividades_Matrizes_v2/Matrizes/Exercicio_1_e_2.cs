@@ -4,7 +4,7 @@ using Biblioteca_Matriz;
 namespace Matrizes
 {
     class Exercicio_1_e_2
-    {
+    {/*
         static int maiorValorMatriz(int[,] mat) 
         {
             int rows = mat.GetLength(0); //pega linhas
@@ -54,6 +54,6 @@ namespace Matrizes
             Console.WriteLine($"\nO maior número e {maiorValorMatriz(matrix)}");
             Console.WriteLine($"\nO menor número e {menorValorMatriz(matrix)}");
             Console.ReadKey();
-        }
+        }*/
     }
 }
