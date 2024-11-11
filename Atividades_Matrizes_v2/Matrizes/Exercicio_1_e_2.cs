@@ -41,7 +41,7 @@ namespace Matrizes
             return menor;
 
         }
-        /*static void Main()
+        static void Main()
         {
             int rows, cols;
             Console.WriteLine("Quantidade de linha e colunas:");
@@ -54,6 +54,6 @@ namespace Matrizes
             Console.WriteLine($"\nO maior número e {maiorValorMatriz(matrix)}");
             Console.WriteLine($"\nO menor número e {menorValorMatriz(matrix)}");
             Console.ReadKey();
-        }*/
+        }
     }
 }
