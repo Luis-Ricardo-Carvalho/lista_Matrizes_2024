@@ -27,7 +27,7 @@ namespace Matrizes
             Console.WriteLine();
         }
             
-        /*static void Main()
+        static void Main()
         {
             int rows, cols;
             Console.WriteLine("Quantidade de linha e colunas:");
@@ -39,17 +39,17 @@ namespace Matrizes
                 Matriz.gera(matrix);
                 Matriz.mostra(matrix);
                 Console.WriteLine("Matriz Gerada");
-                Console.WriteLine($"Os valores da linha principal s„o: ");
+                Console.WriteLine($"Os valores da linha principal s√£o: ");
                 diagonalPrincipal(matrix);
-                Console.WriteLine($"Os valores da linha secundaria s„o: ");
+                Console.WriteLine($"Os valores da linha secundaria s√£o: ");
                 diagonalSecundaria(matrix);
             }
             else
             {
-                Console.WriteLine("N„o È possÌvel apresentar dados para esta dimens„o");
+                Console.WriteLine("N√£o √© poss√≠vel apresentar dados para esta dimens√£o");
             }
 
             Console.ReadKey();
-        }*/
+        }
     }
 }
