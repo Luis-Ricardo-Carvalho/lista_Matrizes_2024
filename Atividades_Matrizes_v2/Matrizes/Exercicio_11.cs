@@ -33,7 +33,7 @@ namespace Matrizes
             Console.WriteLine();
             return soma;
         }
-        /*static void Main()
+        static void Main()
         {
             int rows, cols;
             Console.WriteLine("Quantidade de linha e colunas:");
@@ -63,6 +63,6 @@ namespace Matrizes
             }
 
             Console.ReadKey();
-        }*/
+        }
     }
 }
