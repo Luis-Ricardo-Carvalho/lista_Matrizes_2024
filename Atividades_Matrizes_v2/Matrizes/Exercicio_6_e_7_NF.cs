@@ -39,14 +39,39 @@ class HelloWorld {
             
             if (cols == cols2 && rows == rows2)
             {
-                
-                Console.WriteLine("Matriz 1 Gerada");
                 gera(matrix);
-                mostra(matrix);
                 
-                Console.WriteLine("Matriz 2 Gerada");
                 gera(matrix2);
-                mostra(matrix2);
+                
+                
+                Console.WriteLine("Escolha a operacao (a) somar as duas matrizes (b) subtrair a primeira matriz da segunda (c) adicionar uma constante as duas matrizes (d) imprimir as matrizes.");
+                String operacao = Console.ReadLine();
+                
+                if(operacao == "a"){
+                    
+                } else if (operacao == "b"){
+                    
+                    for (int i = 0;i < linhas; i++)
+                    {
+                        for (int j = 0;j < cols; j++)
+                        {
+                        
+                        }// fim for j
+                        Console.WriteLine();
+                    }// fim for i
+                    
+                } else if (operacao == "c"){
+                    
+                } else if (operacao == "d"){
+                    
+                    Console.WriteLine("Matriz 1");
+                    mostra(matrix);
+                    Console.WriteLine("Matriz 2");
+                    mostra(matrix2);
+                    
+                } else{
+                    Console.WriteLine($"Não é possível apresentar dados porque não existe a operacao:{operacao}");
+                }
             }
             else
             {
